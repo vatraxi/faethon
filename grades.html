@@ -1,0 +1,244 @@
+﻿<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+
+
+<!-- #BeginTemplate "main.dwt" -->
+
+
+<html>
+
+
+<head>
+   
+       
+   
+<script type="text/javascript">
+
+
+
+var i = 0; 			// Start Point
+var images = [];	// Images Array
+var time = 3000;	// Time Between Switch
+	 
+// Image List
+images[0] = "images/seals.png";
+images[1] = "images/oyk.png";
+images[2] = "images/SAS-main-larger.jpg";
+images[3] = "images/alex.png" ;
+
+// Change Image
+function changeImg(){
+	document.slide.src = images[i];
+
+	// Check If Index Is Under Max
+	if(i < images.length - 1){
+	  // Add 1 to Index
+	  i++; 
+	} else { 
+		// Reset Back To O
+		i = 0;
+	}
+
+	// Run function every x seconds
+	setTimeout("changeImg()", time);
+}
+
+// Run function when page loads
+window.onload=changeImg;
+
+   </script>
+   
+   
+  
+<!-- #BeginEditable "doctitle" -->
+   
+   
+  
+<title>grades</title>
+
+<!-- #EndEditable -->
+
+<link href="css/stylesheet.css" rel="stylesheet" type="text/css" media="screen" />
+
+
+</head>
+
+
+<body>
+
+<div id="wrapper">
+
+	<div id="top" style="width: 100%">
+	  
+	 	<div id="emblem">   
+	  
+		 <img src="images/Casque_Skanderbeg_Vienne.jpg" height="189" width="217" />
+		 </div>
+		 
+		 <div id="heading">
+		 	<h2>Welcome to Albano Delinia's personal website </h2>
+		 </div>
+		 
+		 
+		 <div id="contact_social">
+		   		<h4>my social media</h4>   		
+		 </div>
+		 
+		  
+		 <div id="social_media">
+		 
+			 <ul>
+		  		<li><a href="https://www.facebook.com/" target="_blank">
+		  		<img src="images/upscale-237624174096212.jpeg" alt="sample text descr" height="35" width="45" /></a></li>
+		 		<li><a href="https://twitter.com/explore" target="_blank">
+				<img src="images/twitter.jpeg" alt="sample text descr" height="35" width="45" /></a></li>
+         		<li><a href="https://www.instagram.com/" target="_blank">
+         		<img src="images/Instagram_logo_2016.jpeg" alt="sample text descr" height="35" width="45" /></a></li>
+		 	</ul>
+		 
+		 </div>
+
+	</div>
+
+	<div id="topnav">
+	
+	  <div id="navigators">
+		 
+			 <ul>
+		  		<li><a href="index.html">ΑΡΧΙΚΗ ΣΕΛΙΔΑ</a></li>
+		  		<li><a href="biography.html">ΠΡΟΣΩΠΙΚΑ ΣΤΟΙΧΕΙΑ</a></li>
+		  		<li><a href="grades.html">ΒΑΘΜΟΙ</a></li>
+		 		<li><a href="photos.html" target="_blank">ΑΛΜΠΟΥΜ</a></li>
+         		<li><a href="interests.html">ΕΝΔΙΑΦΕΡΟΝΤΑ</a></li>
+         		<li><a href="gadgets.html"target="_blank">ΕΦΑΡΜΟΓΕΣ</a></li>
+         		<li style="border-right:none;"><a href="contact.html" target="_blank">ΕΠΙΚΟΙΝΩΝΙΑ</a></li>
+
+		 	</ul>
+		 
+		 </div>
+
+	
+	</div>
+	
+	
+	<!-- #BeginEditable "ff3f3" -->
+	
+	
+	
+	<div id="content_area" style="height:430px;">
+				
+   
+			<div id="grades">
+	 				
+	 				
+	 				<div id="leftMenu">
+	 				
+									  <details>
+									  
+									  
+									  
+									    <summary>ΕΞΑΜΗΝΟ Α</summary>
+									    <a href="#">ΜΑΘΗΜΑΤΙΚΑ&nbsp; Ι :&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; 8</a>
+									    <a href="#">ΦΥΣΙΚΗ ΓΙΑ ΗΛΕΚΤΡΟΝΙΚΟΥΣ ΜΗΧΑΝΙΚΟΥΣ&nbsp;   :&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; 5.5</a>
+									   	<a href="#">ΘΕΩΡΙΑ ΚΥΚΛΩΜΑΤΩΝ &nbsp; Ι :&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; 8.4</a>
+									    <a href="#">ΠΡΟΓΡΑΜΜΑΤΙΣΜΟΣ Η/Υ Σ&nbsp;  I :&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; 	6</a>
+								        <a href="#"> ΟΡΟΛΟΓΙΑ ΞΕΝΗΣ ΓΛΩΣΣΑΣ&nbsp;  :&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; 	6.5</a>
+									  </details>
+									  
+									  
+									  <details>
+									    <summary>ΕΞΑΜΗΝΟ B</summary>
+									    <a href="#">ΜΑΘΗΜΑΤΙΚΑ&nbsp; ΙI :&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; 9,5</a>
+									    <a href="#">ΗΛΕΚΤΡΟΝΙΚΗ&nbsp;   I:&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; 	7,5</a>
+									   	<a href="#">ΨΗΦΙΑΚΑ ΚΥΚΛΩΜΑΤΑ  &nbsp; Ι :&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; 	6,7</a>
+									    <a href="#">ΘΕΩΡΙΑ ΚΥΚΛΩΜΑΤΩΝ Σ&nbsp;  II :&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; 		7</a>
+								        <a href="#"> ΠΡΟΓΡΑΜΜΑΤΙΣΜΟΣ Η/Υ &nbsp;  ΙΙ:&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; 		5.5</a>
+								        <a href="#"> ΜΕΤΡΗΣΕΙΣ ΚΑΙ ΤΕΧΝΟΛΟΓΙΑ ΤΥΠΩΜΕΝΩΝ ΚΥΚΛΩΜΑΤΩΝ &nbsp;  :&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; 5,3</a>
+
+									  </details>
+									  
+									  		<details>
+									    <summary>ΕΞΑΜΗΝΟ Γ</summary>
+									    <a href="#">ΘΕΩΡΙΑ ΠΙΘΑΝΟΤΗΤΩΝ ΚΑΙ ΣΤΑΤΙΣΤΙΚΗ&nbsp;  :&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; 7,5</a>
+									    <a href="#">ΗΛΕΚΤΡΟΝΙΚΗ &nbsp;   ΙΙ:&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; 	9</a>
+									   	<a href="#">ΨΗΦΙΑΚΑ ΚΥΚΛΩΜΑΤΑ  &nbsp; ΙΙ :&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; 	7</a>
+									    <a href="#"> ΕΠΕΞΕΡΓΑΣΙΑ ΣΗΜΑΤΟΣ Σ&nbsp;  I :&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; 	8,5</a>
+								        <a href="#"> ΟΠΤΟΗΛΕΚΤΡΟΝΙΚΗ&nbsp;  :&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; 	7.2</a>
+									  </details>
+									  
+										<details>
+									    <summary>ΕΞΑΜΗΝΟ Δ</summary>
+									    <a href="#">ΗΛΕΚΤΡΟΝΚΗ &nbsp; ΙΙΙ :&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; 6</a>
+									    <a href="#">ΘΕΩΡΙΑ ΚΥΚΛΩΜΑΤΩΝ &nbsp; ΙΙΙ  :&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; 9</a>
+									   	<a href="#">ΜΙΚΡΟΕΛΕΓΚΤΕΣ &nbsp; Ι:&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; 8.1</a>
+									    <a href="#">ΑΡΧΙΤΕΚΤΟΝΙΚΗ ΥΠΟΛΟΓΙΣΤΙΚΩΝ ΣΥΣΤΗΜΑΤΩΝ&nbsp;   :&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; 8,5</a>
+								        <a href="#">  ΕΦΑΡΜΟΣΜΕΝΟΣ ΗΛΕΚΤΡΟΜΑΓΝΗΤΙΣΜΟΣ&nbsp;  :&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; 	7</a>
+								        <a href="#">  ΣΥΓΓΡΑΦΗ ΚΑΙ ΠΑΡΟΥΣΙΑΣΗ ΤΕΧΝΙΚΩΝ ΚΕΙΜΕΝΩΝ&nbsp;  :&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; 	8,5</a>
+									  </details>
+									  
+									  
+									  <details>
+									    <summary>ΕΞΑΜΗΝΟ Ε</summary>
+									    <a href="#">ΗΛΕΚΤΡΟΝΙΚΕΣ ΜΕΤΡΗΣΕΙΣ&nbsp;  :&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; 7,5</a>
+									    <a href="#">ΜΙΚΡΟΕΛΕΓΚΤΕΣ &nbsp;  ΙΙ :&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; 8,3</a>
+									   	<a href="#">ΤΗΛΕΠΙΚΟΙΝΩΝΙΑΚΑ ΣΥΣΤΗΜΑΤΑ &nbsp;  :&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; 6,1</a>
+									    <a href="#">ΚΕΡΑΙΕΣ ΚΑΙ ΔΙΑΔΟΣΗ&nbsp;   :&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; 	5</a>
+								        <a href="#">  ΣΥΣΤΗΜΑΤΑ ΜΕΣΩΝ ΜΑΖΙΚΗΣ ΕΠΙΚΟΙΝΩΝΙΑΣ&nbsp;  :&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; 	5,8</a>
+									  </details>
+									  
+
+										<details>
+									    <summary>ΕΞΑΜΗΝΟ ΣΤ</summary>
+									    <a href="#"> ΗΛΕΚΤΡΟΝΙΚΑ ΙΣΧΥΟΣ Ι&nbsp; Ι :&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; 6</a>
+									    <a href="#">ΣΥΣΤΗΜΑΤΑ ΑΣΥΡΜΑΤΩΝ ΕΠΙΚΟΙΝΩΝΙΩΝ&nbsp;   :&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; 9,5</a>
+									   	<a href="#">ΣΥΣΤΗΜΑΤΑ ΑΥΤΟΜΑΤΟΥ ΕΛΕΓΧΟΥ&nbsp;  :&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; 6,7</a>
+									    <a href="#">ΡΑΝΤΑΡ ΚΑΙ ΤΗΛΕΠΙΣΚΟΠΗΣΗ&nbsp;   :&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; 	6,5</a>
+								        <a href="#"> ΜΙΚΡΟΗΛΕΚΤΡΟΝΙΚΗ&nbsp;  :&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; 	9,4</a>
+								        <a href="#"> ΕΦΑΡΜΟΓΕΣ ΜΙΚΡΟΕΛΕΓΚΤΩΝ&nbsp;  :&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; 	5,3</a>
+
+									  </details>
+									  
+
+
+									  <details>
+									    <summary>ΕΞΑΜΗΝΟ Ζ</summary>
+									    <a href="#">ΗΛΕΚΤΡΟΝΙΚΑ ΙΣΧΥΟΣ &nbsp; ΙΙ :&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; 6,5</a>
+									    <a href="#">ΔΙΚΤΥΑ ΕΠΙΚΟΙΝΩΝΙΩΝ&nbsp;   :&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; 10</a>
+									   	<a href="#">ΟΠΤΙΚΕΣ ΕΠΙΚΟΙΝΩΝΙΕΣ &nbsp; :&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; 6</a>
+									    <a href="#">ΑΥΤΟΜΑΤΙΣΜΟΙ ΜΕ ΠΡΟΓΡΑΜΜΑΤΙΖΟΜΕΝΟΥΣ ΕΛΕΓΚΤΕΣ (PLC)&nbsp;   :&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; 6</a>
+								        <a href="#">ΡΟΜΠΟΤΙΚΗ&nbsp;  :&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; 	9</a>
+								        <a href="#">ΑΙΣΘΗΤΗΡΙΑ &nbsp; :&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; 9,3</a>
+								        <a href="#">Προγραμματισμός επαναπροσδιοριζόμενων ψηφιακών κυκλωμάτων &nbsp; :&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; 10</a>
+
+									  </details>
+									  
+
+
+									</div>
+										 				
+	  
+			</div>
+	
+	</div>
+
+	<!-- #EndEditable -->
+	
+
+	
+	
+	
+	
+	
+	<div id="footer">
+	
+	 	   <p> "ΘΑΡΣΕΙΝ ΧΡΗ TAX' ΑΥΡΙΟΝ ΕΣΕΤ΄ ΑΜΕΙΝΟΝ"</p>
+	</div>
+	
+ 	
+ 	
+</div>
+</body>
+
+<!-- #EndTemplate -->
+
+</html>

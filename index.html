@@ -1,0 +1,159 @@
+﻿<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+
+
+<!-- #BeginTemplate "main.dwt" -->
+
+
+<html>
+
+
+<head>
+   
+       
+   
+<script type="text/javascript">
+
+
+
+var i = 0; 			// Start Point
+var images = [];	// Images Array
+var time = 3000;	// Time Between Switch
+	 
+// Image List
+images[0] = "images/seals.png";
+images[1] = "images/oyk.png";
+images[2] = "images/SAS-main-larger.jpg";
+images[3] = "images/alex.png" ;
+
+// Change Image
+function changeImg(){
+	document.slide.src = images[i];
+
+	// Check If Index Is Under Max
+	if(i < images.length - 1){
+	  // Add 1 to Index
+	  i++; 
+	} else { 
+		// Reset Back To O
+		i = 0;
+	}
+
+	// Run function every x seconds
+	setTimeout("changeImg()", time);
+}
+
+// Run function when page loads
+window.onload=changeImg;
+
+   </script>
+   
+   
+  
+<!-- #BeginEditable "doctitle" -->
+   
+   
+  
+<title>Untitled 2</title>
+
+<!-- #EndEditable -->
+
+<link href="css/stylesheet.css" rel="stylesheet" type="text/css" media="screen" />
+
+
+</head>
+
+
+<body>
+
+<div id="wrapper">
+
+	<div id="top" style="width: 100%">
+	  
+	 	<div id="emblem">   
+	  
+		 <img src="images/Casque_Skanderbeg_Vienne.jpg" height="189" width="217" />
+		 </div>
+		 
+		 <div id="heading">
+		 	<h2>Welcome to Albano Delinia's personal website </h2>
+		 </div>
+		 
+		 
+		 <div id="contact_social">
+		   		<h4>my social media</h4>   		
+		 </div>
+		 
+		  
+		 <div id="social_media">
+		 
+			 <ul>
+		  		<li><a href="https://www.facebook.com/" target="_blank">
+		  		<img src="images/upscale-237624174096212.jpeg" alt="sample text descr" height="35" width="45" /></a></li>
+		 		<li><a href="https://twitter.com/explore" target="_blank">
+				<img src="images/twitter.jpeg" alt="sample text descr" height="35" width="45" /></a></li>
+         		<li><a href="https://www.instagram.com/" target="_blank">
+         		<img src="images/Instagram_logo_2016.jpeg" alt="sample text descr" height="35" width="45" /></a></li>
+		 	</ul>
+		 
+		 </div>
+
+	</div>
+
+	<div id="topnav">
+	
+	  <div id="navigators">
+		 
+			 <ul>
+		  		<li><a href="index.html">ΑΡΧΙΚΗ ΣΕΛΙΔΑ</a></li>
+		  		<li><a href="biography.html">ΠΡΟΣΩΠΙΚΑ ΣΤΟΙΧΕΙΑ</a></li>
+		  		<li><a href="grades.html">ΒΑΘΜΟΙ</a></li>
+		 		<li><a href="photos.html" target="_blank">ΑΛΜΠΟΥΜ</a></li>
+         		<li><a href="interests.html">ΕΝΔΙΑΦΕΡΟΝΤΑ</a></li>
+         		<li><a href="gadgets.html"target="_blank">ΕΦΑΡΜΟΓΕΣ</a></li>
+         		<li style="border-right:none;"><a href="contact.html" target="_blank">ΕΠΙΚΟΙΝΩΝΙΑ</a></li>
+
+		 	</ul>
+		 
+		 </div>
+
+	
+	</div>
+	
+	
+	<!-- #BeginEditable "ff3f3" -->
+	
+	
+	<div id="banner">
+				
+   
+				
+	<img name="slide" width="960;" height="560;" />		
+	  
+	
+	</div>
+	
+	
+	<div id="content_area" style="height:0"></div>
+
+	<!-- #EndEditable -->
+	
+
+	
+	
+	
+	
+	
+	<div id="footer">
+	
+	 	   <p> "ΘΑΡΣΕΙΝ ΧΡΗ TAX' ΑΥΡΙΟΝ ΕΣΕΤ΄ ΑΜΕΙΝΟΝ"</p>
+	</div>
+	
+ 	
+ 	
+</div>
+</body>
+
+<!-- #EndTemplate -->
+
+</html>

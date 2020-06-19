@@ -1,0 +1,417 @@
+﻿/*FULL RESET*/
+
+
+/* http://meyerweb.com/eric/tools/css/reset/ 
+   v2.0 | 20110126
+   License: none (public domain)
+*/
+
+html, body, div, span, applet, object, iframe,
+p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed, 
+figure, figcaption, footer, header, hgroup, 
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+	margin: 0;
+	padding: 0;
+	border: 0;
+	font-size: 100%;
+	font: inherit;
+	vertical-align: baseline;
+}
+/* HTML5 display-role reset for older browsers */
+article, aside, details, figcaption, figure, 
+footer, header, hgroup, menu, nav, section {
+	display: block;
+}
+body {
+	line-height: 1;
+}
+ol, ul {
+	list-style: none;
+}
+blockquote, q {
+	quotes: none;
+}
+blockquote:before, blockquote:after,
+q:before, q:after {
+	content: '';
+	content: none;
+}
+table {
+	border-collapse: collapse;
+	border-spacing: 0;
+}
+
+/*telos reset*/
+
+
+
+#wrapper {
+
+background-color:#336699;
+width:1200px;
+margin : 0px auto;
+
+}
+
+#top{
+background-color:black;
+width:100%;
+height:200px;
+}
+
+
+#emblem{
+width: 231px; 
+height: 197px;
+float:left;
+
+}
+
+
+
+#heading{
+width: 300px; 
+height: 50px;
+color:#FFFFFF;
+float:left;
+text-align:center;
+padding-top:70px;
+font-style:italic;
+}
+
+#contact_social{
+color:#FFFFFF;
+width:120px;
+height:30px;
+float:left;
+padding-left:360px;
+padding-top:140px;
+}
+
+
+#social_media{
+width: 180px; 
+height: 190px;
+float:right;
+}
+
+
+#social_media ul{
+
+width: 160px; 
+height: 190px;
+padding-right:25px;
+}
+
+
+#social_media ul li {
+
+float:right;
+display:inline;
+padding:3px;
+padding-top:150px;
+}
+
+
+#topnav{
+width:100%;
+height:50px;
+border-bottom:1px #FFFFFF solid
+}
+
+#navigators{
+width:100%;
+}
+
+
+#navigators ul{
+padding-left:65px;
+padding-top:7px;
+
+}
+
+#navigators ul li{
+
+display:inline;
+float:left;
+padding:10px;
+font-size:120%;
+border-right: 1px #000000 solid;
+
+
+}
+
+#navigators a:link{
+color:#FFFF00;
+
+}
+
+
+#navigators a:active{
+
+color:#FFFFFF;
+
+
+}
+
+#navigators a:visited{
+color:#FFFFFF;
+
+
+
+}
+
+#navigators a:hover{
+
+color:#FF0000;
+
+
+}
+
+#navigators a:focus{
+color:#00FF00;
+
+}
+
+
+
+#banner{
+padding-left:120px;
+background-color:#000000;
+
+}
+
+#content_area{
+
+width:100%;
+height:600px;
+
+}
+
+
+
+#footer{
+width:100%;
+height:60px;
+background-image:url('../images/thunder.jpg');
+color:#FFFFFF;
+text-align:center;
+border:1px #FFFFFF double;
+
+}
+
+
+
+#footer p{padding-top:20px;}
+
+
+/*forms*/
+
+form{text-align:left; margin:20px;}
+
+label,submit,input,textarea{
+border:0; margin:0; padding:0;  background:none;
+}
+
+
+label{
+float:left; width:200px; 
+text-align:right; display:block;
+color:#FFFF00; margin-top:10px;
+
+}
+
+
+input,textarea{
+
+border: 1px #333 solid; margin-left:10px;
+padding:5px;
+}
+
+
+input{
+height:20px;
+width:300px; margin-bottom:16px;
+color:#FFFFFF;
+}
+
+textarea{
+
+width:400px; height:300px;
+margin-bottom:16px;
+color:#FFFFFF;
+
+}
+
+
+select{   }
+
+
+.submit{
+		width:130px;	height:40px;
+		margin-left:210px;	
+		font-size:12px;
+		color:#FF0000;
+ }
+
+
+br {  clear:left;  }
+
+
+#contact_form{
+
+height:590px;
+width:100%;
+
+}
+
+#contact_form ol{
+
+list-style-type:none;
+
+}
+
+
+#grades{
+width:100%;
+height:430px;
+overflow:scroll;
+padding-top:20px;
+
+}
+
+
+
+#leftMenu {
+	width: 100%;
+	min-width: 150px;
+	
+}
+#leftMenu > details{
+    
+}
+#leftMenu > details > summary{
+	cursor:pointer;
+	background: #DFEFFF;
+	margin:6px;
+	padding:8px;
+}
+#leftMenu > details > summary:hover{
+	background: #EFEFEF;
+}
+#leftMenu > details > summary::-webkit-details-marker{
+	/*display: none;*/
+}
+#leftMenu > details > a{
+	display:block;
+	text-decoration: none;
+	color:#000;
+	font-size:13px;
+	margin:3px 6px 3px 18px;
+	padding: 4px;
+	background: #EFEFEF;
+}
+#leftMenu > details > a:hover{
+	background: #DFEFFF;
+	font-weight: bold;
+}
+#leftMenu > details > a:before{
+	content: "- ";
+}
+
+
+#leftMenu details {width:100%;}
+
+#leftMenu a {width:500px;}
+
+
+#interests{
+width:100%;
+height:600px;
+
+}
+
+#interests h2{
+color:#FFFFFF;
+text-align:center;
+}
+
+
+#outdoor{
+width:33.3333%;
+height:600px;
+float:left;
+background-image:url('../images/outdoor.jpg');
+}
+
+
+#philosophy{
+width:33.3333%;
+height:600px;
+float:left;
+background-image:url('../images/14280898077_65c1b42450_b.jpg');
+}
+
+
+
+#religion{
+width:33.3333%;
+height:600px;
+float:right;
+background-image:url('../images/STAUROS.jpg');
+}
+
+
+#biography
+{
+	width:100%;
+	height:600px;
+
+}
+
+
+#biography ol li {width:80%;height:80px; margin:none; padding-left:200px; }
+
+#biography ol li h2{width:300px;height:40px;  float:left;}
+
+#biography ol li h3{width:600px;height:30px; padding-top:20px;}
+
+
+
+#photos {width:1900px;padding-left:60px;
+background:#000000;
+}
+
+.gallery{
+
+margin:10px 50px;
+
+}
+
+
+.gallery img{
+
+transition:1s;
+padding:20px;
+width:200px;
+
+}
+
+
+.gallery img:hover {
+
+filter: drop-shadow(0 0 2.75rem gold);
+transform:scale(1.1);
+
+}
+
+
